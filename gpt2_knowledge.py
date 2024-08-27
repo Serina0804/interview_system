@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="secret")
 import sys
 
 #! 2つのGPTを使用
