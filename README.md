@@ -23,10 +23,10 @@
 
 ### 動かし方
 
-**- ターミナルで　ssh root@SOTAのIPアドレス**
-    **- パスワード：edison00**
-**- binディレクトリで　./run.sh sotajsonconverter/SotaJsonConverter　を実行**
-**- 新しいターミナルでパイソンファイルを実行（例：robot_gesture.py）**
+- **ターミナルで　ssh root@SOTAのIPアドレス**
+    - **パスワード：edison00**
+- **binディレクトリで　./run.sh sotajsonconverter/SotaJsonConverter　を実行**
+- **新しいターミナルでパイソンファイルを実行（例：robot_gesture.py）**
 
 ### 概要
 
