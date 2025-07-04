@@ -17,6 +17,17 @@
 質問項目から指定したトピックについての質問文を生成。</p>
 質問項目分類モジュール、質問文生成モジュール、質問再判定モジュールの３つの機能で構成</p>
 
+## ロボット
+
+ロボットを動かすコード：robot_gesture.py
+
+### 動かし方
+
+- ターミナルで　ssh root@SOTAのIPアドレス
+    - パスワード：edison00
+- binディレクトリで　./run.sh sotajsonconverter/SotaJsonConverter　を実行
+- 新しいターミナルでパイソンファイルを実行（例：robot_gesture.py）
+
 ### 概要
 
 ### 質問項目分類モジュール
