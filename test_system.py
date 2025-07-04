@@ -1,4 +1,4 @@
-from openai import OpenAI
+# from openai import OpenAI
 import sys
 import csv
 import re
@@ -19,7 +19,7 @@ from pydub import AudioSegment
 import simpleaudio
 from main2 import audio_recognize
 
-client = OpenAI(api_key="") #APIkeyを入力
+# client = OpenAI(api_key="") #APIkeyを入力
 
 M_SIZE = 1024
 
@@ -459,6 +459,7 @@ if __name__ == '__main__':
     clear_file_contents(random_question_1)
     clear_file_contents(random_question_2)
     clear_file_contents(interview_file_log)
+    send_gesture()
     
     topic = input("please input topic:") #interview topic
     interviewer = input("please input interviewer:")
